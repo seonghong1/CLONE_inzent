@@ -1,0 +1,106 @@
+footer {
+    background-color: black;
+}
+
+.foot_top {
+    padding: 13px 3%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
+
+.foot_top .ft_left {
+    width: 100%;
+}
+
+.ft_left ul {
+    display: flex;
+}
+
+.ft_left ul li {
+    padding-right: 16px;
+    margin-right: 16px;
+    position: relative;
+
+}
+
+.ft_left ul li:not(:nth-of-type(3)):after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #4c4c4c;
+    right: 0;
+    top: 4px;
+    width: 1px;
+    height: 12px;
+}
+
+.foot_top .ft_left a {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+}
+
+.foot_top .ft-right {
+    display: flex;
+    align-items: center;
+}
+
+.ft-right ul {
+    display: flex;
+    margin-right: 25px;
+}
+
+.ft-right ul i {
+    margin: 0 15px;
+}
+
+.ft-right .select_wrap {
+    position: relative;
+}
+
+.select_wrap i {
+    position: absolute;
+    right: 25px;
+    top: calc(50% - 11px);
+}
+
+.foot_top .ft-right i {
+    color: #848691;
+    font-size: 17px;
+}
+
+.foot_top .ft-right select {
+    border: 1px solid #333;
+    background-color: transparent;
+    height: 46px;
+    width: 288px;
+    padding: 0 25px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    appearance: none;
+}
+
+.ft-right select option {
+    background: black;
+    border: none;
+}
+
+.foot_bottum {
+    padding: 35px 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb_left address {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.6
+}
+
+.fb_left p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.3);
+    margin-top: 12px;
+}
